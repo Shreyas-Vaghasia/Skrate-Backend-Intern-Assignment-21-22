@@ -16,9 +16,9 @@ app.use(expresss.json());
 
 //Routes
 
-app.get('/', () => {
-  res.send("Hello World");
-})
+app.get("/", (req, res) => {
+  res.send("<h1>Skrate Backend Intern Assignment 21-22</h1>");
+});
 
 app.use("/users", userRoutes);
 app.use("/meetings", meetingRoutes);
