@@ -17,7 +17,8 @@ app.use(expresss.json());
 //Routes
 
 app.get("/", (req, res) => {
-  res.send("<h1>Skrate Backend Intern Assignment 21-22</h1>");
+  // res.send("<h1>Skrate Backend Intern Assignment 21-22</h1>");
+  res.sendFile(__dirname + "/task.txt");
 });
 
 app.use("/users", userRoutes);
