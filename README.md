@@ -26,3 +26,6 @@ npm start [OR] yarn start
 localhost:[PORT] (PORT=defined in .env)
 
 
+# Examples of API calls
+1 https://skrate-backend-assignment.herokuapp.com/user.all 
+It returns a list of all Users with their UID as a JSON.
