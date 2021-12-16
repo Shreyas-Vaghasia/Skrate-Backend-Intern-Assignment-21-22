@@ -27,18 +27,18 @@ localhost:[PORT] (PORT=defined in .env)
 
 
 # Examples of API calls
-1 https://skrate-backend-assignment.herokuapp.com/users/all 
+## 1. https://skrate-backend-assignment.herokuapp.com/users/all 
 It returns a list of all Users with their UID as a JSON.
-2 https://skrate-backend-assignment.herokuapp.com/users/new
+##2. https://skrate-backend-assignment.herokuapp.com/users/new
 It creates a new user when username is sent as json to the api and return UID as response
 {
     "username":"shreyas123"
 }
 
-3.https://skrate-backend-assignment.herokuapp.com/meetings/all
+## 3.https://skrate-backend-assignment.herokuapp.com/meetings/all
 Returns a list of all Meetings, with details of users involved & meeting UID.
 
-4. https://skrate-backend-assignment.herokuapp.com/meetings/new
+## 4. https://skrate-backend-assignment.herokuapp.com/meetings/new
 It accepts “uid1”, “uid2” & “date” as Body Parameters, and returns a Meeting UID on success.
 {
     "uid1":"1",
